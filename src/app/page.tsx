@@ -19,7 +19,7 @@ export default function LandingPage() {
         {/* Button */}
         <div className="w-full space-y-5">
           <button
-            onClick={() => router.push("https://evershine-agent.vercel.app/admin/login")}
+            onClick={() => router.push("https://agentdashboard-xi.vercel.app/admin/login")}
             className="w-full py-5 bg-[rgb(25,74,149)] text-white text-lg font-medium rounded-[10px] hover:bg-[rgb(25,74,149)]/90 transition-all shadow-lg hover:shadow-xl"
           >
             Admin Panel
@@ -27,7 +27,7 @@ export default function LandingPage() {
 
 
           <button
-            onClick={() => router.push("https://evershine-agent.vercel.app/agent-login")}
+            onClick={() => router.push("https://agentdashboard-xi.vercel.app/agent-login")}
             className="w-full py-5 bg-[rgb(25,74,149)] text-white text-lg font-medium rounded-[10px] hover:bg-[rgb(25,74,149)]/90 transition-all shadow-lg hover:shadow-xl"
           >
             Consultant
